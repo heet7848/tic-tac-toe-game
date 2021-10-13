@@ -47,9 +47,9 @@ print(('T1|T2|T3\n'
 while True:
     print('{}|{}|{}'.format(board['T1'], board['T2'], board['T3']))
     print('-+-+-')
-    print('{}|{}|{}'.format(board['D1'], board['D2'], board['D3']))
-    print('-+-+-')
     print('{}|{}|{}'.format(board['M1'], board['M2'], board['M3']))
+    print('-+-+-')
+    print('{}|{}|{}'.format(board['D1'], board['D2'], board['D3']))
 
     end_check = check()
 
